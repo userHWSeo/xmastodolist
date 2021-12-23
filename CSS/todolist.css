@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 310px;
+  height: 28px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+span {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}

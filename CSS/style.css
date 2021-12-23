@@ -1,0 +1,13 @@
+@import "bgimg.css";
+@import "clock.css";
+@import "todolist.css";
+@import "countdown.css";
+
+h2 {
+  color: whitesmoke;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
