@@ -2,12 +2,15 @@
 @import "clock.css";
 @import "todolist.css";
 @import "countdown.css";
+@import "greeting.css";
+@import "weather.css";
 
 h2 {
   color: whitesmoke;
 }
 
-ul {
+ul,
+li {
   list-style: none;
   padding-left: 0px;
 }

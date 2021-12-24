@@ -14,19 +14,41 @@
     </div>
     <h2 id="d-day">Christmas D-day without COVID-19 &nbsp <i class="fas fa-tree"></i></h2>
     <h2 class="js-clock"></h2>
-    <form id="todo-form">
-      <input type="text" placeholder="Write down your Christmas wish !" required />
+    <div id="center">
+    <form id="login-form" class="hidden">
+      <input 
+      required
+      id ="login-input"
+      maxlength="15"
+      type="text"
+      placeholder="What is your name?"
+      />
     </form>
-    <ul id="todo-list">
+    <h1 class="hidden" id="greeting"></h1>
+    </div>
+    <form id="todo-form">
+      <input
+       id ="todolist_input"
+       type="text"
+       placeholder="Write down your Christmas wish !"
+       required
+       />
+    </form>
+    <ul id="todo-list"></ul>
       <li>
         <span></span>
       </li>
-    </ul>
-      <img src="IMG/background02.jpg" alt="">
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <img src="IMG/background01.jpg" alt="">
       <script src="JS/countdown.js"></script>
+      <script src="JS/greeting.js"></script>
     <script src="JS/clock.js"></script>
     <script src="JS/background.js"></script>
     <script src="JS/todo.js"></script>
+    <script src="JS/weather.js"></script>
     <script src="https://kit.fontawesome.com/835b6f9661.js" crossorigin="anonymous"></script>
   </body>
 </html>
